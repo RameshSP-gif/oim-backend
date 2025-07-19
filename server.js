@@ -17,10 +17,11 @@ app.use("/", orderRoutes);
 
 // DB connection
 const db = mysql.createConnection({
-  host: "localhost",
+  host: "ballast.proxy.rlwy.net",
   user: "root",
-  password: "root",
+  password: "WjJmOBrxBYatyqzmPKEgtWUKLlfjfXNR",
   database: "oim_db",
+  port:25822,
   multipleStatements: true,
 });
 

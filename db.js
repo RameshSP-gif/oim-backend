@@ -3,11 +3,12 @@
 const mysql = require("mysql2");
 
 const db = mysql.createConnection({
-  host: "localhost",
+  host: "ballast.proxy.rlwy.net",
   user: "root",
-  password: "root",
+  password: "WjJmOBrxBYatyqzmPKEgtWUKLlfjfXNR",
   database: "oim_db",
   multipleStatements: true,
+  port:25822,
 });
 
 db.connect((err) => {
